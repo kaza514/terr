@@ -18,7 +18,7 @@ default = "t2.micro"
 
 variable "key" {
 description = "Server Key file name"
-default = "popup"
+default = "demo"
 }
 
 variable "bootstrap_path" {
