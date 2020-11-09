@@ -1,6 +1,6 @@
 provider  "aws" {
    region = var.aws_region
-   version = "~> 0.13.5"
+   version = "~> 3.0"
 }
 
 resource "aws_instance" "testinstance"{
