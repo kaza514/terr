@@ -1,5 +1,6 @@
 provider  "aws" {
    region = var.aws_region
+   hashicorp/aws: version = "~> 3.14.1"
 }
 
 resource "aws_instance" "testinstance"{
