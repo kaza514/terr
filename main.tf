@@ -1,6 +1,8 @@
 provider  "aws" {
    region = var.aws_region
    version = "~> 3.0"
+   access_key = "qwer4321"
+  secret_key = "4321qwer"
 }
 
 resource "aws_instance" "testinstance"{
