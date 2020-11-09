@@ -21,7 +21,4 @@ description = "Server Key file name"
 default = "demo"
 }
 
-variable "bootstrap_path" {
-  description = "Script to install startup"
-  default = "demo.sh"
-}
+
