@@ -13,7 +13,7 @@ resource "aws_instance" "testinstance"{
    
 
    tags = {
-#        Name = "Server-${count.index}"
+#        Name1 = "Server-${count.index}"
          Name = "Server"
       }
 
