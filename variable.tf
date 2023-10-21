@@ -18,10 +18,7 @@ default = "t2.micro"
 
 variable "key" {
 description = "Server Key file name"
-default = "Sec_key"
+default = "/root/home/workspace/terr1/demo.pem"
 }
 
-variable "bootstrap_path" {
-  description = "Script to install startup"
-  default = "demo.sh"
-}
+
